@@ -2,21 +2,26 @@
 import pickle
 import streamlit as st
 
-st.title('Got A Book Hangover?!')
 
-st.markdown("### Let's test out the books on your TBR (to-be-read) list...")
+
+# to run in command line use the following command: streamlit run streamlit_app.py
+
+
+
+st.title('**Experiencing a Book Hangover?**')
+st.markdown("##### _Let's explore the books waiting on your TBR (to-be-read) list..._")
+st.text("")
 st.text("")
 st.text("")
 
 st.markdown("**In the space provided below, input the author and title of your book in the following format:**")
-st.markdown("> Author : Title")
+st.markdown("<p style='text-align: center;'>Author : Title</p>", unsafe_allow_html=True)
 st.text("")
 st.text("")
 
 
 st.markdown("**Here is an example...**")
-st.markdown(">Suzanne Collins : The Hunger Games")
-
+st.markdown("<p style='text-align: center;'>Suzanne Collins : The Hunger Games</p>", unsafe_allow_html=True)
 st.text("")
 st.text("")
 
@@ -37,4 +42,4 @@ st.markdown(f'**Your prediction is: {predicted}**')
 
 
 st.markdown("- A prediction of 1 indicates that this book is worthy of breaking the book hangover. Read it now!")
-st.markdown("- A prediction of 0 indicates that a you should still read this book, but it is not going to be your next great read to pull you out of your book hangover.")
+st.markdown("- A prediction of 0 indicates that a you should still read this book, but it is not going to be the 'next great read' that will pull you out of your book hangover.")
