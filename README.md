@@ -29,6 +29,8 @@ _This capstone represents a project fueled by my passion. Thank you for joining 
 
 ```
 CAPSTONE
+|__ .streamlit
+|   |__ config.toml
 |__ code
 |   |__ 01-EDA.ipynb
 |   |__ 02-Cleaning.ipynb   
