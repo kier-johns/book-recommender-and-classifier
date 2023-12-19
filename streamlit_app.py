@@ -1,8 +1,7 @@
 #Imports
 import pickle
 import streamlit as st
-
-
+import sklearn
 
 # to run in command line use the following command: streamlit run streamlit_app.py
 
